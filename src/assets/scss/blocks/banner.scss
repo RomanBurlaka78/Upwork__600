@@ -1,0 +1,25 @@
+//banner
+
+.banner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 632px;
+    background: url(../images/banner.png) center  no-repeat;
+    background-size: cover;
+   
+    &__inner {
+        max-width: 508px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+        color: $clr-blue;
+       
+       
+    }
+}
+

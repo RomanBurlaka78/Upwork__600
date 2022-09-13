@@ -1,0 +1,43 @@
+.sellers {
+   
+    padding: 100px 165px;
+    background: $clr-blue;
+
+    &__title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #fff;
+        margin-bottom: 96px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
+    &__item-wrapper {
+        flex: 0 0 255px;
+        height: 324px;
+       
+    }
+    &__item {
+        width: 255px;
+        height: 304px; 
+        background-color: white;
+    }
+    &__item-text {
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 17px;
+        color: #fff;
+    }
+
+
+    &__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+}

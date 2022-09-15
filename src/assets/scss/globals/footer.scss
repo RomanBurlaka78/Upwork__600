@@ -2,7 +2,7 @@ footer {
         
 }
 .footer-wrapper {
-   background-color: black!important; 
+   background-color: $clr-blue!important; 
 }
 
 .footer {
@@ -10,12 +10,14 @@ footer {
     padding: 45px 10px 35px 10px;
    
     &__inner {
+        max-width: 1200px;
+        margin: 0 auto;
         display: flex;
-        justify-content: start;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 85px;
        
-        border-bottom: 1px solid #D3DAD7;
+        // border-bottom: 1px solid #D3DAD7;
         padding-bottom: 35px;  
         @media (max-width:480px) {
             justify-content: center;
@@ -32,19 +34,20 @@ footer {
         margin: 70px 0 20px 0;
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        color: #FFFFFF;
+        font-size: 28px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.5);
     }
 
     &__link { 
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        color: #fff;
+        line-height: 48px;
+        
         text-decoration: none;
         transition: .3s color;
+        color: rgba(255, 255, 255, 0.5);
     
         &:hover {
             color: white;
@@ -69,6 +72,9 @@ footer {
     }
 
 
+}
+.social__item {
+    margin-right: 30px;
 }
 
 
